@@ -1,0 +1,123 @@
+body{
+    margin: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#logo {
+
+    width: 10vw;
+    height: 8vw;
+    float: left;
+    display: block;
+    margin-left: 4%;
+    position: absolute;
+    margin-top: 0%;
+}
+
+
+#Nav{
+
+    padding-left: 55vw;
+}
+
+.list{
+   
+    list-style-type: none;
+    border-style: none;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+
+
+}
+
+a:link {
+    color: black;
+  }
+
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+
+
+
+.slide{
+    position: absolute;
+    height: 23vw;
+    width: 30vw;
+}
+
+.carousel-inner{
+
+z-index: -1 ;
+margin-left: 1%;
+margin-right: 1%;
+margin-top: 2%;
+}
+
+.card{
+
+margin: 5%;
+box-shadow: 10px 10px 10px rgba(139, 139, 139, 0.626);
+}
+
+.card-title{
+
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-group{
+
+    background-color: #e7f4f4eb;
+    margin-top: 5%;
+    padding-bottom: 3.5%;
+
+}
+
+.section{
+
+    padding: 5% 40% 0% 38%;
+    text-decoration: underline;
+}
+
+.content{
+    display: flex;
+
+ }
+
+.card-body{
+
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.logo{
+
+    padding: 0% 1% 0% 1%;
+    margin: 0% 0% 0% 0vw;
+    height: 20vw;
+    width: 30vw;
+}
+
+#form{
+ 
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+}
+
+#footer{
+    background-color: rgba(128, 128, 128, 0.568);
+    display: flex;
+    margin-top: 3%;
+    padding: 0% ;
+   
+}
+
+.footer{
+    background-color: rgba(128, 128, 128, 0.568);
+   box-shadow: none;
+   border: 0%;
+}
